@@ -4,12 +4,12 @@ import "../Layouts/SideBar.css";
 import background from "../Assets/Images/background.jpg";
 
 const SideBar = () => {
-  const recentItem = (topic) => {
+  const recentItem = (topic) => (
     <div className="sidebar-recentitem">
       <span className="sidebar-hash">#</span>
       <p>{topic}</p>
-    </div>;
-  };
+    </div>
+  );
 
   return (
     <main className="sidebar">
